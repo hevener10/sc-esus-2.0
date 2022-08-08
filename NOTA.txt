@@ -1,0 +1,48 @@
+Versão 2.0.18
+
+Foi adicionado sistema de paretrização (PARA TESTE) na URL do indicador 6 como segue
+
+hip
+Conjunto de hipertensos
+0 = Hipretensos Clínicos + Hipertensos Autodeclarados
+1 = Hipretensos Clínicos
+2 = Hipertensos Autodeclarados
+http://localhost/indicadores/rel/0106.php?hip=0
+
+tb
+Tabelas de busca secundária
+0 = (tb_fat_proced_atend_proced, tb_fat_atd_ind_procedimentos, tb_fat_atend_odonto_proced, tb_fat_proced_atend)
+1 = tb_fat_proced_atend
+2 = (tb_fat_proced_atend_proced, tb_fat_atd_ind_procedimentos, tb_fat_atend_odonto_proced)
+http://localhost/indicadores/rel/0106.php?tb=0
+
+di
+Data inicial
+0 = Data do inicio do quadrimestre - 12 meses
+1 = Data do final do quadrimestre - 12 meses
+http://localhost/indicadores/rel/0106.php?di=0
+
+pu
+Procedimentos considerados
+0 = 0301100039 + ABPG033
+1 = 0301100039
+2 = ABPG033
+http://localhost/indicadores/rel/0106.php?pu=0
+
+tba
+Considerar tabela de atendimento
+0 = Sim
+1 = Não
+http://localhost/indicadores/rel/0106.php?tba=0
+
+Opcionais
+dti
+Data inicial (no formato aaammdd) data inicial do quadrimestre avaliado
+dtf
+Data final (no formato aaammdd) data final do quadrimestre avaliado
+
+É possível utilizar uma combinação de parâmetros
+http://localhost/indicadores/rel/0106.php?hip=0&tb=0&di=0&pu=0&tba=0
+
+Para ver o resultado entre no relatório "Indicador 6" em HTML
+http://localhost/indicadores/html/0106.html

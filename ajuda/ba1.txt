@@ -1,0 +1,7 @@
+Para alterar os dados do cabeçalho do relatório edite o arquivo 
+dados.php dentro da pasta "indicadores"
+
+Para alterar o logo do relatório providencie uma imagem de 145 pixel por 145 pixel
+o nome do arquivo deve ser exatamente logo_cidade.jpg
+coloque o arquivo dentro da pasta "images" que está na pasta "indicadores"
+

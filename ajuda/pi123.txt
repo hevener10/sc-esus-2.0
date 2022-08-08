@@ -1,0 +1,26 @@
+0-0-0
+dum-dpp-ic
+
+dum
+Qual DUM considerar
+0 = DUM mais antigo
+1 = DUM mais novo
+http://.../indicadores/rel/0101.php?dum=0
+
+dpp
+Qual tempo de gestação considerar
+0 = 294 dias
+1 = 280 dias
+http://.../indicadores/rel/0101.php?dpp=0
+
+ic
+Considerar gestantes com interrupção clínica no denominador
+0 = Sim
+1 = Não
+http://.../indicadores/rel/0101.php?ic=0
+
+ex
+Considerar tabelas
+0 = (tb_fat_proced_atend)
+1 = (tb_fat_proced_atend, tb_fat_atendimento_individual)
+http://.../indicadores/rel/0101.php?ex=0

@@ -1,0 +1,29 @@
+0-0-0-0
+hip-tb-di-tba
+
+hip
+Conjunto de diabeticos
+0 = Diabeticos Clínicos + Diabeticos Autodeclarados
+1 = Diabeticos Clínicos
+2 = Diabeticos Autodeclarados
+http://.../indicadores/rel/0107.php?hip=0
+
+tb
+Tabelas de busca secundária
+0 = (tb_fat_proced_atend_proced, tb_fat_atd_ind_procedimentos, tb_fat_atend_odonto_proced, tb_fat_proced_atend)
+1 = tb_fat_proced_atend
+2 = (tb_fat_proced_atend_proced, tb_fat_atd_ind_procedimentos, tb_fat_atend_odonto_proced)
+http://.../indicadores/rel/0107.php?tb=0
+
+di
+Data inicial
+0 = Data do inicio do quadrimestre - 12 meses
+1 = Data do final do quadrimestre - 12 meses
+http://.../indicadores/rel/0107.php?di=0
+
+tba
+Considerar tabela de atendimento
+0 = Sim
+1 = Não
+http://.../indicadores/rel/0107.php?tba=0
+
